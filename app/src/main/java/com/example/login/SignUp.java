@@ -65,9 +65,7 @@ public class SignUp extends Activity
         }
         @Override
         protected void onDestroy() {
-
             super.onDestroy();
-
             loginDataBaseAdapter.close();
         }
     }
